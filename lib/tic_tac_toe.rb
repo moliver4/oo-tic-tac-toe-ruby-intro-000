@@ -103,7 +103,7 @@ class TicTacToe
 
   def play
     total_turns = 0
-    while total_turns < 9 && !over?
+    while total_turns < 9 
       if over?
         if won?
           puts "Congratulations #{winner}!"
